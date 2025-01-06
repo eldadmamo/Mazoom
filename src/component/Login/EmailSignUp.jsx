@@ -37,6 +37,9 @@ const EmailSignUp = ({onLogin }) => {
       {/* Header */}
       <header className="p-4 flex justify-between items-center rounded-lg bg-[#ffffff] border-b">
       <div className="flex px-12 items-center gap-2">
+      <div className="flex items-center space-x-4">
+            <img src="http://localhost:5173/images/Home.svg" alt="QR Code" className="shadow-none w-16 h-16" />
+          </div>
       </div>
       <div className="flex items-center gap-4">
       <div className="flex items-center space-x-4">
@@ -49,7 +52,6 @@ const EmailSignUp = ({onLogin }) => {
             
             <img src=' http://localhost:5173/images/Color.svg' />
           </div>
-        <button className="text-blue-700 hover:text-blue-800 font-medium">Log in</button>
         {error && <p className="text-red-500">{error}</p>}
       </div>
     </header> 
