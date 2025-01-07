@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ChevronLeft, QrCode, Settings, Globe2 } from 'lucide-react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
-function AddNames() {
+const AddNames = () => {
   const [guestNames, setGuestNames] = useState('');
   const location = useLocation();
   const navigate = useNavigate();
