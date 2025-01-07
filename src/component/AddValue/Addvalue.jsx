@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ChevronLeft, QrCode, Settings, Globe2 } from 'lucide-react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
-const AddNames = () => {
+const Addvalue = () => {
   const [guestNames, setGuestNames] = useState('');
   const location = useLocation();
   const navigate = useNavigate();
@@ -144,4 +144,4 @@ const AddNames = () => {
   );
 }
 
-export default AddNames;
+export default Addvalue;

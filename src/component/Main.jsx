@@ -14,7 +14,6 @@ const Main = () => {
   
   const previewImage = mergedImagesArray?.[0]?.url || "https://images.unsplash.com/photo-1607344645866-009c320b63e0?w=400&q=80";
   
-  
   return (
     <>
       <div className="min-h-screen bg-gray-50">

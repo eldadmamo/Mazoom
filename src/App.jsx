@@ -6,7 +6,7 @@ import EmailLogin from './component/Login/EmailLogin';
 import Main from './component/Main';
 import UploadImage from './component/UploadImage/UploadImage';
 import Categories from './component/Categories/Categories';
-import AddNames from './component/AddNames/addNames';
+import Addvalue from './component/AddValue/Addvalue';
 import EmptyGuest from './component/GuestEvent/EmptyGuest';
 import { Merge } from 'lucide-react';
 import SettingPower from './component/Login/SettingPower';
@@ -87,7 +87,7 @@ function App() {
           path="/addname"
           element={
             <PrivateRoute isLoggedIn={isLoggedIn}>
-              <AddNames />
+              <Addvalue />
             </PrivateRoute>
           }
         />
