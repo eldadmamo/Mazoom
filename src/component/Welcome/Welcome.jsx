@@ -21,7 +21,7 @@ const Welcome = () => {
             <img src="https://mazoom-sandy.vercel.app/images/Home.svg" alt="QR Code" className="shadow-none w-16 h-16" />
           </div>
           <div className="flex items-center space-x-4">
-          <button className="text-blue-700 hover:text-blue-800 font-medium">Log in</button>
+          <button onClick={() => navigate('/signin')} className="text-blue-700 hover:text-blue-800 font-medium">Log in</button>
             <img src='https://mazoom-sandy.vercel.app/images/Color.svg' />
           </div>
         </div>
