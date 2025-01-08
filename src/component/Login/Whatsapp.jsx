@@ -41,7 +41,7 @@ function Whatsapp() {
         <div className="w-full  lg:w-1/2 flex justify-center">
         {/* Right Image */}
            <div className='hidden md:block'>
-            <div className='flex flex-wrap gap-3'>
+            <div className='flex flex-wrap gap-3 ml-3'>
                 <button onClick={BacktoHome}><ArrowLeft/></button>
                 <h4>Back</h4>
             </div>
