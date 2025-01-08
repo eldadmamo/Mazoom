@@ -38,7 +38,7 @@ const EmailSignUp = ({onLogin }) => {
       <header className="p-4 flex justify-between items-center rounded-lg bg-[#ffffff] border-b">
       <div className="flex px-12 items-center gap-2">
       <div className="flex items-center space-x-4">
-            <img src="https://mazoom-sandy.vercel.app/images/Home.svg" alt="QR Code" className="shadow-none w-16 h-16" />
+            
           </div>
       </div>
       <div className="flex items-center gap-4">
@@ -64,7 +64,8 @@ const EmailSignUp = ({onLogin }) => {
            <div className='hidden md:block'>
             <div className='flex flex-wrap gap-3'>
                 <button onClick={BacktoHome}><ArrowLeft/></button>
-                <h4>Back</h4>
+                <h4 className="ml-3">Back</h4>
+                <img src="https://mazoom-sandy.vercel.app/images/Home.svg" alt="QR Code" className="shadow-none w-16 h-16" />
             </div>
             <img
               src="https://mazoom-sandy.vercel.app/images/front.png"
