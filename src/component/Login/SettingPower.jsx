@@ -61,7 +61,7 @@ function SettingPower() {
           <IoArrowBack className="mr-2" /> Back
         </button>
 
-        <h2 className="text-2xl font-semibold text-gray-800 mb-8">Choose Type</h2>
+        <h2 className="text-2xl font-semibold text-gray-800 mb-8">My Settings</h2>
 
         <div className="grid md:grid-cols-[200px,1fr]  gap-9">
           {/* Sidebar */}
