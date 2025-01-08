@@ -66,13 +66,16 @@ function Categories() {
             <img src="https://mazoom-sandy.vercel.app/images/Home.svg" alt="QR Code" className="w-16 h-16" />
           </div>
           <div className="flex items-center space-x-4">
-          <select className="text-sm border-none outline-none cursor-pointer bg-transparent">
+          <select className="text-sm border-none outline-none cursor-pointer  hidden sm:block bg-transparent">
           <option value="en">En</option>
            </select>
             <button className="px-4 py-2 bg-blue-600 text-white rounded-md">
               Balance: $0.00
             </button>
-            <Settings onClick={()=> navigate('/setting')} className="w-6 h-6 text-gray-600" />
+            <Settings 
+            onClick={() => navigate('/setting')} 
+            className="w-8 h-8 text-gray-600 cursor-pointer hover:text-gray-800 transition-transform duration-200 hover:scale-125 hover:bg-blue-100 p-1 rounded-md"
+            />
           </div>
         </div>
       </header>
@@ -84,7 +87,7 @@ function Categories() {
           Back
         </button>
 
-        <h1 className="text-2xl font-semibold mb-8">Choose Type</h1>
+        <h1 className="text-2xl font-semibold mb-8">Add Invitation</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-[300px,1fr] gap-8">
           {/* Left Side Info */}

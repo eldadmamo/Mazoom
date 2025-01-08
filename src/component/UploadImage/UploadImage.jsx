@@ -5,6 +5,7 @@
   import { IoMdCloseCircle } from "react-icons/io";
   import QRCode from "qrcode";
   import { useNavigate } from 'react-router-dom';
+import { IoArrowBack } from 'react-icons/io5';
 
 function UploadImage() {
   const [invitationText, setInvitationText] = useState("");
@@ -238,13 +239,16 @@ function UploadImage() {
             <img src="https://mazoom-sandy.vercel.app/images/Home.svg" alt="QR Code" className="w-16 h-16" />
           </div>
           <div className="flex items-center space-x-4">
-          <select className="text-sm border-none outline-none cursor-pointer bg-transparent">
+          <select className="text-sm border-none outline-none cursor-pointer  hidden sm:block bg-transparent">
           <option value="en">En</option>
-          </select>
+           </select>
             <button className="px-4 py-2 bg-blue-600 text-white rounded-md">
               Balance: $0.00
             </button>
-            <Settings onClick={()=> navigate('/setting')} className="w-6 h-6 text-gray-600" />
+            <Settings 
+            onClick={() => navigate('/setting')} 
+            className="w-8 h-8 text-gray-600 cursor-pointer hover:text-gray-800 transition-transform duration-200 hover:scale-125 hover:bg-blue-100 p-1 rounded-md"
+            />
           </div>
         </div>
       </header>
@@ -252,9 +256,18 @@ function UploadImage() {
 
     {/* Main Content */}
     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <button onClick={() => navigate(-1)} className="flex items-center text-gray-600 mb-8">
+                <IoArrowBack className="mr-2" />
+                Back
+              </button>
+      
+              <h1 className="text-2xl font-semibold mb-8">Add Invitaiton</h1>
+      
       <div className="flex flex-col lg:flex-row gap-8">
         {/* Preview Section */}
+        
         <div className="bg-white rounded-lg shadow-lg p-6 flex-1">
+
           <div className="aspect-w-16 aspect-h-9 mb-6">
           <div className="border-2 border-dashed border-gray-300 rounded-lg p-8">
        {imageShow.length > 0 ? (

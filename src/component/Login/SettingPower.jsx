@@ -38,13 +38,16 @@ function SettingPower() {
             />
           </div>
           <div className="flex items-center space-x-4">
-          <select className="text-sm border-none outline-none cursor-pointer bg-transparent">
+          <select className="text-sm border-none outline-none cursor-pointer sm:hidden block bg-transparent">
           <option value="en">En</option>
            </select>
             <button className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
               Balance: $0.00
             </button>
-            <Settings onClick={()=> navigate('/setting')} className="w-6 h-6 hover:bg-black text-gray-600 cursor-pointer hover:text-gray-800" />
+            <Settings 
+            onClick={() => navigate('/setting')} 
+            className="w-8 h-8 text-gray-600 cursor-pointer hover:text-gray-800 transition-transform duration-200 hover:scale-125 hover:bg-blue-100 p-1 rounded-md"
+            />
           </div>
         </div>
       </header>

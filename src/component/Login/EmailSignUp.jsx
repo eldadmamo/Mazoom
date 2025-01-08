@@ -44,11 +44,11 @@ const EmailSignUp = ({onLogin }) => {
       <div className="flex items-center gap-4">
       <div className="flex items-center space-x-4">
           <select className="text-sm border-none outline-none cursor-pointer bg-transparent">
-          <option value="option Value">Option Value</option>
+          <option value="option Value">Contact us</option>
           </select>
-          <select className="text-sm border-none outline-none cursor-pointer bg-transparent">
+          <select className="text-sm border-none outline-none cursor-pointer  hidden sm:block bg-transparent">
           <option value="en">En</option>
-          </select>
+           </select>
             
             <img src='https://mazoom-sandy.vercel.app/images/Color.svg' />
           </div>
@@ -62,10 +62,12 @@ const EmailSignUp = ({onLogin }) => {
         <div className="w-full  lg:w-1/2 flex justify-center">
         {/* Right Image */}
            <div className='hidden md:block'>
+            <div className="flex flex-col gap-3">
             <div className='flex flex-wrap gap-3'>
                 <button onClick={BacktoHome}><ArrowLeft/></button>
                 <h4 className="ml-3">Back</h4>
-                <img src="https://mazoom-sandy.vercel.app/images/Home.svg" alt="QR Code" className="shadow-none w-16 h-16" />
+            </div>
+            <img src="https://mazoom-sandy.vercel.app/images/Home.svg" alt="QR Code" className="shadow-none w-16 h-16" />
             </div>
             <img
               src="https://mazoom-sandy.vercel.app/images/front.png"

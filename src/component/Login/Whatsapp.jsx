@@ -27,9 +27,9 @@ function Whatsapp() {
           <select className="text-sm border-none outline-none cursor-pointer bg-transparent">
           <option value="Contact Us">Contact Us</option>
           </select>
-          <select className="text-sm border-none outline-none cursor-pointer bg-transparent">
+          <select className="text-sm border-none outline-none cursor-pointer  hidden sm:block bg-transparent">
           <option value="en">En</option>
-          </select>
+           </select>
             
             <img src='https://mazoom-sandy.vercel.app/images/Color.svg' />
           </div>

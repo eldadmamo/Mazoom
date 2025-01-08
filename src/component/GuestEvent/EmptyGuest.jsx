@@ -98,13 +98,16 @@ function EmptyGuest() {
             <img onClick={handleNext} src="https://mazoom-sandy.vercel.app/images/Home.svg" alt="QR Code" className="w-16 h-16" />
           </div>
           <div className="flex items-center space-x-4">
-          <select className="text-sm border-none outline-none cursor-pointer bg-transparent">
+          <select className="text-sm border-none outline-none cursor-pointer  hidden sm:block bg-transparent">
           <option value="en">En</option>
-        </select>
+           </select>
             <button className="px-4 py-2 bg-blue-600 text-white rounded-md shadow-md hover:bg-blue-700">
               Balance: $0.00
             </button>
-            <Settings onClick={()=> navigate('/setting')} className="w-6 h-6 text-gray-600 cursor-pointer" />
+            <Settings
+            onClick={() => navigate('/setting')} 
+            className="w-8 h-8 text-gray-600 cursor-pointer hover:text-gray-800 transition-transform duration-200 hover:scale-125 hover:bg-blue-100 p-1 rounded-md"
+            />
           </div>
         </div>
       </header>
