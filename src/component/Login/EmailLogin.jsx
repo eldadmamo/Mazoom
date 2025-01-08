@@ -43,7 +43,7 @@ const EmailLogin = ({onLogin }) => {
       <div className="flex items-center gap-4">
       <div className="flex items-center space-x-4">
           <select className="text-sm border-none outline-none cursor-pointer bg-transparent">
-          <option value="option Value">Option Value</option>
+          <option value="contact us">Contact Us</option>
           </select>
           <select className="text-sm border-none outline-none cursor-pointer bg-transparent">
           <option value="en">En</option>
@@ -51,7 +51,7 @@ const EmailLogin = ({onLogin }) => {
             
             <img src='https://mazoom-sandy.vercel.app/images/Color.svg' />
           </div>
-        <button className="text-blue-700 hover:text-blue-800 font-medium">Log in</button>
+        
         {error && <p className="text-red-500">{error}</p>}
       </div>
     </header> 
