@@ -41,11 +41,13 @@ function Whatsapp() {
         <div className="w-full  lg:w-1/2 flex justify-center">
         {/* Right Image */}
            <div className='hidden md:block'>
+            <div className='flex flex-col gap-3'>
             <div className='flex flex-wrap gap-3 ml-3'>
                 <button onClick={BacktoHome}><ArrowLeft/></button>
                 <h4>Back</h4>
             </div>
             <img src="https://mazoom-sandy.vercel.app/images/Home.svg" alt="QR Code" className="shadow-none w-16 h-16" />
+            </div>
             <div className="flex items-center gap-2">
             <img src='' alt='' />
             </div>
