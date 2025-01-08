@@ -54,23 +54,30 @@ const Main = () => {
 
         {/* Invitation List */}
         <div className="space-y-4">
-          
-            <div
-                 className="bg-white rounded-lg p-4 flex items-center justify-between hover:shadow-md transition-shadow">
-              <div className="flex items-center gap-4">
-                <img 
-                src={previewImage} 
-                className="w-12 h-12 rounded-lg object-cover" />
-                <span className="font-medium">{invitationText}</span>
-              </div>
-              <div className="flex items-center gap-4">
-                <span className="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full">
-                   Invitation
-                </span>
-                <ChevronRight className="w-5 h-5 text-gray-400" />
-              </div>
-            </div>
-        </div>
+  <div className="bg-white rounded-lg p-4 flex items-center justify-between hover:shadow-md transition-shadow">
+    {/* Left Section */}
+    <div className="flex items-center gap-4 w-1/3">
+      <img
+        src={previewImage}
+        className="w-12 h-12 rounded-lg object-cover"
+      />
+      <span className="font-medium">{invitationText}</span>
+    </div>
+
+    {/* Middle Section */}
+    <div className="w-1/3 flex justify-center">
+      <span className="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full">
+        Invitation
+      </span>
+    </div>
+
+    {/* Right Section */}
+    <div className="w-1/3 flex justify-end">
+      <ChevronRight className="w-5 h-5 text-gray-400" />
+    </div>
+  </div>
+</div>
+
       </main>
           </div>
           )
