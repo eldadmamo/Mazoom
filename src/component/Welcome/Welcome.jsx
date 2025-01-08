@@ -18,11 +18,11 @@ const Welcome = () => {
       <header className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <img src="http://localhost:5173/images/Home.svg" alt="QR Code" className="shadow-none w-16 h-16" />
+            <img src="https://mazoom-sandy.vercel.app/images/Home.svg" alt="QR Code" className="shadow-none w-16 h-16" />
           </div>
           <div className="flex items-center space-x-4">
           <button className="text-blue-700 hover:text-blue-800 font-medium">Log in</button>
-            <img src=' http://localhost:5173/images/Color.svg' />
+            <img src='https://mazoom-sandy.vercel.app/images/Color.svg' />
           </div>
         </div>
       </header>   
@@ -51,7 +51,7 @@ const Welcome = () => {
           {/* Right Image */}
           <div className="w-full lg:w-1/2 flex justify-center">
             <img
-              src="http://localhost:5173/images/front.png"
+              src="https://mazoom-sandy.vercel.app/images/front.png"
               alt="People connecting"
               className="rounded-lg shadow-none max-w-full h-auto"
             />

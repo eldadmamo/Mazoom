@@ -32,7 +32,7 @@ function SettingPower() {
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
           <div className="flex items-center space-x-4">
             <img
-              src="http://localhost:5173/images/Home.svg"
+              src="https://mazoom-sandy.vercel.app/images/Home.svg"
               alt="QR Code"
               className="w-15 h-15"
             />

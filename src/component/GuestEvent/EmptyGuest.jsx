@@ -95,7 +95,7 @@ function EmptyGuest() {
       <header className="bg-white shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <img onClick={handleNext} src="http://localhost:5173/images/Home.svg" alt="QR Code" className="w-16 h-16" />
+            <img onClick={handleNext} src="https://mazoom-sandy.vercel.app/images/Home.svg" alt="QR Code" className="w-16 h-16" />
           </div>
           <div className="flex items-center space-x-4">
           <select className="text-sm border-none outline-none cursor-pointer bg-transparent">
@@ -176,7 +176,7 @@ function EmptyGuest() {
               <div className=" items-center justify-center text-center">
                 <div className='flex flex-wrap gap-5'>
                 <img
-                  src="http://localhost:5173/images/bro.svg"
+                  src="https://mazoom-sandy.vercel.app/images/bro.svg"
                   alt="Empty state"
                   className="w-60 h-60 object-cover rounded-lg mb-4"
                 />

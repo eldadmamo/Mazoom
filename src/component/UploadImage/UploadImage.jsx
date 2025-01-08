@@ -42,7 +42,7 @@ function UploadImage() {
       const [mainImage, qrCode, frameLogo] = await Promise.all([
         loadImage(mainImageUrl),
         loadImage(qrCodeUrl),
-        loadImage("http://localhost:5173/images/Frame.svg"),
+        loadImage("https://mazoom-sandy.vercel.app/images/Frame.svg"),
       ]);
   
       
@@ -80,7 +80,7 @@ function UploadImage() {
       const [mainImage, qrCode, frameLogo] = await Promise.all([
         loadImage(mainImageUrl),
         loadImage(qrCodeUrl),
-        loadImage("http://localhost:5173/images/Frame.svg"),
+        loadImage("https://mazoom-sandy.vercel.app/images/Frame.svg"),
       ]);
   
       // Calculate dimensions
@@ -235,7 +235,7 @@ function UploadImage() {
     <header className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <img src="http://localhost:5173/images/Home.svg" alt="QR Code" className="w-16 h-16" />
+            <img src="https://mazoom-sandy.vercel.app/images/Home.svg" alt="QR Code" className="w-16 h-16" />
           </div>
           <div className="flex items-center space-x-4">
           <select className="text-sm border-none outline-none cursor-pointer bg-transparent">
@@ -281,7 +281,7 @@ function UploadImage() {
               </div>
                 <img
                 className="absolute top-2 right-10 w-[70px] h-[70px]"
-                src="http://localhost:5173/images/Frame.svg"
+                src="https://mazoom-sandy.vercel.app/images/Frame.svg"
                 alt="Frame"
                 />
                 </>
@@ -313,7 +313,7 @@ function UploadImage() {
               )}
               <h2 className=''>name</h2>
               </div>
-              <img className='mt-4 w-[70px] h-[70px]' src="http://localhost:5173/images/Frame.svg" />
+              <img className='mt-4 w-[70px] h-[70px]' src="https://mazoom-sandy.vercel.app/images/Frame.svg" />
               </div>}
               
             </div>

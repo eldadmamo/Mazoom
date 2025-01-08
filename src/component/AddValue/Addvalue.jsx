@@ -84,7 +84,7 @@ const Addvalue = () => {
       <header className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <img src="http://localhost:5173/images/Home.svg" alt="QR Code" className="w-16 h-16" />
+            <img src="https://mazoom-sandy.vercel.app/images/Home.svg" alt="QR Code" className="w-16 h-16" />
           </div>
           <div className="flex items-center space-x-4">
            <select className="text-sm border-none outline-none cursor-pointer bg-transparent">
