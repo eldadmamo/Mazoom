@@ -20,12 +20,12 @@ function Whatsapp() {
       <header className="p-4 flex justify-between items-center rounded-lg bg-[#ffffff] border-b">
       <div className="flex px-12 items-center gap-2">
       <div className="flex items-center space-x-4">
-            <img src="https://mazoom-sandy.vercel.app/images/Home.svg" alt="QR Code" className="shadow-none w-16 h-16" />
+            
           </div>
       </div>
       <div className="flex items-center space-x-4">
           <select className="text-sm border-none outline-none cursor-pointer bg-transparent">
-          <option value="option Value">Option Value</option>
+          <option value="Contact Us">Contact Us</option>
           </select>
           <select className="text-sm border-none outline-none cursor-pointer bg-transparent">
           <option value="en">En</option>
@@ -45,6 +45,7 @@ function Whatsapp() {
                 <button onClick={BacktoHome}><ArrowLeft/></button>
                 <h4>Back</h4>
             </div>
+            <img src="https://mazoom-sandy.vercel.app/images/Home.svg" alt="QR Code" className="shadow-none w-16 h-16" />
             <div className="flex items-center gap-2">
             <img src='' alt='' />
             </div>

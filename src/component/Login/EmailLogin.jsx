@@ -38,7 +38,7 @@ const EmailLogin = ({onLogin }) => {
       <div className="flex px-12 items-center gap-2">
       <div className="flex items-center space-x-4">
             <img src="https://mazoom-sandy.vercel.app/images/Home.svg" alt="QR Code" className="shadow-none w-16 h-16" />
-          </div>
+      </div>
       </div>
       <div className="flex items-center gap-4">
       <div className="flex items-center space-x-4">
