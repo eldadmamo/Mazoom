@@ -64,7 +64,7 @@ const EmailLogin = ({onLogin }) => {
            <div className='hidden md:block'>
             <div className='flex flex-wrap gap-3 ml-3'>
                 <button onClick={BacktoHome}><ArrowLeft/></button>
-                <h4 className="ml-3">Back</h4>
+                <h4>Back</h4>
                 <img src="https://mazoom-sandy.vercel.app/images/Home.svg" alt="QR Code" className="shadow-none w-16 h-16" />
             </div>
             <img
