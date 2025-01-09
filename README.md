@@ -7,6 +7,7 @@ Currently, two official plugins are available:
 vercel: https://mazoom-sandy.vercel.app/ 
 
 Email: test@example.com
+
 password: password123
 
 
